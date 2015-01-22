@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/tvFeast"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:hint="feast"
+            />
+        
+         <TextView
+             android:id="@+id/tvDietTime"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="5dp"
+             android:hint="time" />
+
+         <ImageView
+             android:id="@+id/showalarm"
+             android:layout_width="44dp"
+             android:layout_height="44dp"
+             android:layout_gravity="right"
+             android:contentDescription="@string/app_name"
+             android:padding="5dp"
+             android:src="@drawable/yess" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+         
+        <TextView
+            android:id="@+id/tvMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="menu" />
+    
+         <TextView
+             android:id="@+id/tvDate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="10dp"
+             android:hint="date" />
+
+</LinearLayout>
+</LinearLayout>

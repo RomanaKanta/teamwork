@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    
+    <TextView 
+        android:id="@+id/charttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#397f00"
+        android:text="@string/tvAllDietChartTitle"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"             
+        />
+    
+    <RadioGroup
+    android:id="@+id/radioGroup1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    >
+
+    <RadioButton
+        android:id="@+id/radio0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio0"
+        android:layout_marginLeft="20dp"
+        android:checked="true"/>
+    
+    <RadioButton
+ 	    android:id="@+id/radio1"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+   	    android:text="@string/radio1"
+  	    android:layout_marginLeft="20dp" />
+    
+    <RadioButton
+	    android:id="@+id/radio2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/radio2"
+	    android:layout_marginLeft="20dp" />
+
+ </RadioGroup>
+ 
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+ 
+     <TextView 
+            android:id="@+id/datetext"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/tvAllDietDate"
+            android:textColor="#000000"
+            />
+
+     <EditText
+         android:id="@+id/etEnterDate"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:inputType="date"
+         android:hint="@string/bAllDietDate"
+         android:background="#bdefeb"
+          />
+   
+     </LinearLayout>
+     
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+     <TextView 
+            android:id="@+id/monthtext"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/tvAllDietMonth"
+            android:textColor="#000000"
+            />
+     
+   <EditText
+         android:id="@+id/etEnterMonth"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:hint="@string/bAllDietMonth"
+         android:background="#bdefeb"
+          />
+     </LinearLayout>
+
+    <ListView
+        android:id="@+id/alldaychart"
+        android:layout_width="wrap_content"
+        android:layout_height="305dp" >
+    </ListView>
+
+</LinearLayout>

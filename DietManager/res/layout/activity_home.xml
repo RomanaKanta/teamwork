@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgall"
+    android:orientation="vertical"
+    tools:context="com.ftfl.dietmanager.MainActivity" >
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tvUserName"
+        android:textColor="#397f00"
+        android:textSize="30sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTodayDiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tvTodayDiet"
+            android:textColor="#3399ff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvNoteTodayDietHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tvNoteTodayDietHome"
+            android:textColor="#8d8d8d"
+            android:textSize="12sp" />
+
+        <ListView
+            android:id="@+id/lvHomeDailyDiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvUpcomingDiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tvUpcomingDiet"
+            android:textColor="#3399ff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvNoteUpcomingHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tvNoteUpcomingHome"
+            android:textColor="#8d8d8d"
+            android:textSize="12sp" />
+
+        <ListView
+            android:id="@+id/lvHomeUpcoming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

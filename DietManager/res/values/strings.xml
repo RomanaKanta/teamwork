@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <resources>
+  <string name="app_name">Diet Manager</string> 
+  <string name="hello_world">Hello world!</string> 
+  <string name="action_settings">Settings</string> 
+  <string name="tvICareHeading">ICare</string> 
+  <string name="tvSubtitleOne">Impressive</string> 
+  <string name="tvSubtitleTwo">Health</string> 
+  <string name="tvUserName">User\'s Diet Chart</string> 
+  <string name="date">Date</string> 
+  <string name="time">Time</string> 
+  <string name="alarm">Set Alarm</string> 
+  <string name="addchart">Add Chart</string> 
+  <string name="viewchart">View Chart</string> 
+  <string name="item">Items</string> 
+  <string name="diettitle">Add Diet</string> 
+  <string name="feasttextview">Feast</string> 
+  <string name="feast">breakfast, lunch, supper and others</string> 
+  <string name="menutextview">Menu</string> 
+  <string name="menu">add your food items</string> 
+  <string name="day">Pick a Date :</string> 
+  <string name="button1">01/17/2015</string> 
+  <string name="tvTime">Pick a time :</string> 
+  <string name="bTime">8:30 AM</string> 
+  <string name="bSave">Add to Chart</string> 
+  <string name="textView1">ICare Diet Chart</string> 
+  <string name="textView5">Create Profile</string> 
+  <string name="tvName">Name</string> 
+  <string name="etName">name</string> 
+  <string name="tvFname">Father\'s Name</string> 
+  <string name="tvMname">Mother\'s Name</string> 
+ <!--  home 
+  --> 
+  <string name="tvTodayDiet">Today\'s Diet Chart</string> 
+  <string name="tvNoteTodayDietHome">touch to update or delete from listed items</string> 
+  <string name="tvUpcomingDiet">Upcoming Diet Chart</string> 
+  <string name="tvNoteUpcomingHome">touch to view details and update</string> 
+  <string name="tvSingleDietChartTitle">17/01/2015 Saturday</string> 
+  <string name="tvAllDietChartTitle">User\'s Diet Day Chart</string> 
+  <string name="radio0">all</string> 
+  <string name="radio1">weekly</string> 
+  <string name="radio2">monthly</string> 
+  <string name="addamore">Add More</string> 
+  <string name="deletechart">Delete</string> 
+  <string name="tvAllDietDate">Enter Date:</string> 
+  <string name="bAllDietDate">01/17/2015</string> 
+  <string name="tvAllDietMonth">Enter month:</string> 
+  <string name="bAllDietMonth">January</string> 
+  <string name="ivAlarm">alarm image</string> 
+  <string name="tvRowTodayOne">Feast</string> 
+  <string name="tvRowTodayTwo">Menu</string> 
+  <string name="tvRowUpcoming">01/01/2015 Friday</string> 
+ <!--  view_profile 
+  --> 
+  <string name="tvUserVP">User\'s Profile</string> 
+  <string name="tvNameVP">Name :</string> 
+  <string name="tvFnameVP">Father\'s Name :</string> 
+  <string name="tvMnameVP">Mother\'s Name :</string> 
+  <string name="tvDobVP">Date of Birth :</string> 
+  <string name="tvHeightVP">Height :</string> 
+  <string name="tvWeightVP">Weight :</string> 
+  <string name="tvLocationVP">Location :</string> 
+  <string name="tvBloodGroupVP">Blood Group :</string> 
+  <string name="tvCommentVP">Special Comment :</string> 
+  <string name="bUpdateVP">Update</string> 
+  <string name="ok">OK</string> 
+ <!--  create_profile 
+  --> 
+  <string name="tvHeadDietChart">ICare Diet Chart</string> 
+  <string name="tvHeadCreateProfile">Create Profile</string> 
+  <string name="tvNameCreateProfile">Name :</string> 
+  <string name="etNameCreateProfile">name</string> 
+  <string name="tvFnameCreateProfile">Father\'s Name :</string> 
+  <string name="etFnameCreateProfile">father\'s name</string> 
+  <string name="tvMnameCreateProfile">Mother\'s Name :</string> 
+  <string name="etMnameCP">mother\'s name</string> 
+  <string name="tvDobCP">Date of Birth</string> 
+  <string name="etDobCP">Date of Birth</string> 
+  <string name="tvHeightCP">Height</string> 
+  <string name="etHeightCP">height</string> 
+  <string name="tvWeightCP">Weight</string> 
+  <string name="etWeightCP">weight</string> 
+  <string name="tvBloodGroupCP">Blood Group</string> 
+  <string name="etBloodGroupCP">blood group</string> 
+  <string name="tvLocationCP">Location</string> 
+  <string name="etLocationCP">location</string> 
+  <string name="tvCommentCP">Special Comment</string> 
+  <string name="etCommentCP">special comment</string> 
+  <string name="bSaveCP">Submit</string> 
+  
+  <string name = "DATA_INSERTED">Data inserted</string>
+  </resources>
